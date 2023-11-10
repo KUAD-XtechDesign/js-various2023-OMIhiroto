@@ -9,7 +9,7 @@ function selectChange(){
     current_code=val01 + val02;
     console.log(current_code)
     $("#code_txt").text(current_code)
-
+    $("#pic").attr("src","./images/"+current_code+".webp")
 }
 
 selectChange()
