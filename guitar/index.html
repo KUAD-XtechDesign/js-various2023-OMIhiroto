@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>guitar</title>
+  <!-- 必要なライブラリをネット上から直接参照 CDN -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/filipelinhares/ress/master/dist/ress.min.css"/>
+  <!-- 自分のcss -->
+  <link rel="stylesheet" href="./css/guitar.css">
+</head>
+<body bgcolor="white">
+
+<h1>GUITAR CODE</h1>
+
+<div class="wrapper">
+
+  <div id="code_txt"></div>
+
+  <p class="code">
+    <img id="pic" src="https://guitar-concierge.com/chord/wp-content/uploads/C-Major-Chord-Low.png">
+  </p>
+  
+  <div class="select_set">  
+    <div class="each_select">
+      <label class="selectbox-002">
+        <select id="select01">
+            <option>C</option>
+            <option>D</option>
+            <option>E</option>
+        </select>
+      </label>
+    </div>
+    <div class="each_select">
+      <label class="selectbox-002">
+        <select id="select02">
+          <option></option>
+          <option>m</option>
+          <option>7</option>
+        </select>
+      </label>
+   </div>
+  </div>
+
+  <button class="button-048">再生</button>
+
+
+
+</div>
+  <!-- 必要なライブラリをネット上から直接参照 CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- 自分のjs -->
+  <script src="./js/guitar.js"></script>
+</body>
+</html>
